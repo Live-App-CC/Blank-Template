@@ -17,15 +17,21 @@ struct ContentView: View {
                     Text("▶️ tests your app")
                     Text("➕adds an element")
                     Text("🛠 previews your Swift code")
-                }.tabItem({Image(systemName: "house.fill")})
+                }
                 ScrollView {
                     Text("This part of the app can be found on the second tab 😌")
                     Text("When you run the app, try pinching to zoom into the simulation 👌")
-                }.tabItem({Image(systemName: "list.dash")})
-                Image("image")
-                    .resizable()
-                    .scaledToFit()
-                    .tabItem({Image(systemName: "photo")})
+                }
+                VStack {
+                    Text("You also have all the SF Symbols available to use! Here's some examples 😇")
+                    ScrollView {
+                        Image(systemName: "person.3.fill")
+                        Image(systemName: app.badge.fill")
+                        Image(systemName: mappin.and.ellipse")
+                        Image(systemName: paperplane.fill")
+                        Image(systemName: bolt.fill")
+                    }
+                }
             }
         }
     }
