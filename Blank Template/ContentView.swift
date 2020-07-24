@@ -26,10 +26,10 @@ struct ContentView: View {
                     Text("You also have all the SF Symbols available to use! Here's some examples 😇")
                     ScrollView {
                         Image(systemName: "person.3.fill")
-                        Image(systemName: app.badge.fill")
-                        Image(systemName: mappin.and.ellipse")
-                        Image(systemName: paperplane.fill")
-                        Image(systemName: bolt.fill")
+                        Image(systemName: "app.badge.fill")
+                        Image(systemName: "mappin.and.ellipse")
+                        Image(systemName: "paperplane.fill")
+                        Image(systemName: "bolt.fill")
                     }
                 }
             }
