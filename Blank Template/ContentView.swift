@@ -23,7 +23,8 @@ struct ContentView: View {
                     Text("When you run the app, try pinching to zoom into the simulation 👌")
                 }
                 VStack {
-                    Text("You also have all the SF Symbols available to use! Here's some examples 😇")
+                    Text("You also have all the SF Symbols available!")
+                    Text("Here's some examples 😇")
                     Image(systemName: "person.3.fill")
                     Image(systemName: "app.badge.fill")
                     Image(systemName: "mappin.and.ellipse")
