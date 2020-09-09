@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  Blank Template
 //
-//  Created by Joseph Hinkle on 5/9/20.
-//  Copyright © 2020 Live App. All rights reserved.
+//  Created by Joseph Hinkle on 9/8/20.
 //
 
 import SwiftUI
@@ -16,11 +15,11 @@ struct ContentView: View {
                 Text("▶️ tests your app")
                 Text("➕adds an element")
                 Text("🛠 previews your Swift code")
-            }
+            }.tabItem { Image( systemName: "circle" ) }
             ScrollView {
                 Text("This part of the app can be found on the second tab 😌")
                 Text("When you run the app, try pinching to zoom into the simulation 👌")
-            }
+            }.tabItem { Image( systemName: "square" ) }
             VStack {
                 Text("You also have all the SF Symbols available!")
                 Text("Here's some examples 😇")
@@ -29,7 +28,7 @@ struct ContentView: View {
                 Image(systemName: "mappin.and.ellipse")
                 Image(systemName: "paperplane.fill")
                 Image(systemName: "bolt.fill")
-            }
+            }.tabItem { Image( systemName: "photo" ) }
             NavigationView {
                 VStack {
                     Text("This is a navigation view ⛵️")
@@ -41,7 +40,7 @@ struct ContentView: View {
                         Text("Click here for page 2")
                     }
                 }
-            }
+            }.tabItem { Image( systemName: "star" ) }
         }
     }
 }
