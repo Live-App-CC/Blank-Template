@@ -15,6 +15,7 @@ struct ContentView: View {
                 Text("▶️ tests your app")
                 Text("➕adds an element")
                 Text("🛠 previews your Swift code")
+                Image("image").resizable().scaledToFit().frame(maxWidth: 100)
             }.tabItem { Image( systemName: "circle" ) }
             ScrollView {
                 Text("This part of the app can be found on the second tab 😌")
